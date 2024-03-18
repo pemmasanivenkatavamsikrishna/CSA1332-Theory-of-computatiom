@@ -1,0 +1,69 @@
+Automaton Simulator, v1.0
+dfa {
+	alphabet {abcd*}
+	state {
+		final {yes}
+		coord {761 181}
+	}
+	state {
+		coord {549 195}
+	}
+	state {
+		initial {yes}
+		coord {310 201}
+	}
+	edge 2 0 {
+		transits {b}
+		offset {1.0544148559702529}
+	}
+	edge 2 1 {
+		transits {a}
+		offset {0.06647610817450039}
+	}
+	edge 1 0 {
+		transits {b}
+		offset {0.01928876942847972}
+	}
+	edge 0 2 {
+		transits {a}
+		offset {7.2871768196413065}
+	}
+	edge 1 1 {
+		transits {a}
+		offset {2.356194490192345}
+	}
+	edge 0 1 {
+		transits {b}
+		offset {7.024044699390801}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {545 118}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {436 185}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {811 342}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {542 261}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {670 296}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {620 392}
+	}
+}
